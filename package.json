@@ -11,6 +11,8 @@
   "description": "",
   "dependencies": {
     "express": "^5.1.0",
-    "node-red": "^4.0.9"
+    "node-red": "^4.0.9",
+     "node-red-dashboard": "^3.5.0",
+  "@studio/nr-dashboard-thermometer": "^1.1.0"
   }
 }
