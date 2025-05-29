@@ -15,6 +15,6 @@
     "express-session": "^1.18.1",
     "node-red": "^4.0.9",
     "node-red-dashboard": "^3.5.0",
-    "@studio/thermometer": "latest"
+    "@studiobox/node-red-contrib-ui-widget-thermometer": "latest"
   }
 }
