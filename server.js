@@ -44,7 +44,7 @@ app.post("/login", (req, res) => {
   const { username, password } = req.body;
   if (username === "admin" && password === "lina123") {
     req.session.loggedIn = true;
-    res.redirect("/ui"); // ou "/ui" si tu préfères aller directement au dashboard
+    res.redirect("/api/ui"); // red ou "/ui" si tu préfères aller directement au dashboard
   } else {
     res.send(`<p>Identifiants incorrects. <a href="/">Revenir</a></p>`);
   }
